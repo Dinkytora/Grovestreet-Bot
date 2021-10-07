@@ -1,0 +1,7 @@
+py_cord==2.0.0a3871+g13094aac
+watchgod==0.7
+disrank==0.0.2
+vacefron.py==1.6.2
+discordLevelingSystem==1.0.2
+PyYAML==5.4.1
+rich==10.12.0
