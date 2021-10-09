@@ -1,6 +1,5 @@
 import discord
 import functools
-import vacefron
 import asyncio
 
 from typing import Optional
@@ -32,8 +31,6 @@ role_awards = {
 		RoleAward(role_id=806599466604953644, level_requirement=100),
 	]
 }
-
-vac_api = vacefron.Client()
 
 
 announcement_embed = discord.Embed(
