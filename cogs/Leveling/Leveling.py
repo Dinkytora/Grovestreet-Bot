@@ -54,7 +54,7 @@ class Leveling(commands.Cog):
 		self.bot = bot
 		self.announcement = LevelUpAnnouncement(message=announcement_embed, level_up_channel_ids=[grovestreet_level_up_channel_id], tts=False)
 		self.leveling = DiscordLevelingSystem(rate=1, per=60, awards=role_awards, level_up_announcement=self.announcement, bot=self.bot, stack_awards=True)
-		self.leveling.connect_to_database_file(path=r'C:\Users\Dante\Documents\Groovestreet Bot\db\Leveling\DiscordLevelingSystem.db')
+		self.leveling.connect_to_database_file(path=r'db\Leveling\DiscordLevelingSystem.db')
 		self.clean_database.start()
 
 	def cog_unload(self):
